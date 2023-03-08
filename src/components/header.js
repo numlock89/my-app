@@ -1,16 +1,19 @@
 import React from "react"
 
 // assets import here
-import ReactLogo from "./images/react-logo.png"
+import ReactLogo from "../images/react-logo.png"
 
 // css imports here
-import "./css/header.css"
+import "../css/header.css"
 
 export default function Header() {
     return (
         <div>
             <nav className="nav">
-                <img className="react-logo" src={ReactLogo} />
+                <div className="nav-left">
+                    <img className="react-logo" src={ReactLogo} />
+                    <h1>React JS</h1>
+                </div>
                 <ul className="nav-ul">
                     <li>Pricing</li>
                     <li>About</li>

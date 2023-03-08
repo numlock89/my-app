@@ -2,10 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(27, 27, 27);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
 }
 
 .react-logo {
-    width: 5rem;
+    width: 4rem;
+    padding-right: 1rem;
+}
+
+.nav-left h1 {
+    color: aqua;
+    font-size: 2rem;
 }
 
 .nav-ul {
@@ -16,4 +28,5 @@
     list-style-type: none;
     padding: 1rem;
     font-size: 1.5rem;
+    color: aliceblue;
 }
